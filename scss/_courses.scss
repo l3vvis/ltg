@@ -1,0 +1,166 @@
+.courses__inner {
+    margin-top: 104px;
+}
+
+.courses__head {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 60px;
+    justify-content: space-between;
+}
+
+.courses__title {
+    width: 100%;
+    max-width: 650px;
+    color: $text-title-color;
+    font-size: calc(1.25rem + 1vw);
+    font-weight: 900;
+    line-height: 35px;
+    letter-spacing: .46px;
+}
+
+.courses__button {
+    padding: 12px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid $hover-btn ;
+    border-radius: 8px;
+    background: #fff;
+    color: $hover-btn;
+    text-align: center;
+    letter-spacing: .16px;
+    transition: $transition;
+
+    font: {
+        weight: 500;
+        size: 16px
+    }
+
+    &:hover {
+        background: $hover-btn-light;
+    }
+}
+
+// //======================================================
+
+.splide__track {
+    padding: 15px 15px 15px 15px !important;
+}
+
+#mySlider {
+    .splide__slide {
+        border-radius: 10px;
+        background: var(--blue-secondary, #DEF1FF);
+        display: flex;
+        width: 453px;
+        padding: 40px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        transition: $transition;
+
+        &:hover p {
+            color: $hover-btn;
+        }
+
+        &:nth-child(2n) {
+            background: #FDEDE4;
+        }
+
+        &:nth-child(3n) {
+            background: $hover-btn-light;
+        }
+
+        &:hover {
+            box-shadow: 0px 3px 10px 3px #F6B5B6;
+
+            svg {
+                transform: translate(7px, 0);
+            }
+        }
+    }
+}
+
+.slide__card {
+    transition: $transition;
+    width: 100%;
+}
+
+.splide__pagination {
+    transition: $transition;
+    gap: 16px;
+    margin-bottom: -64px;
+}
+
+.splide.is-focus-in .splide__pagination__page:focus {
+    outline: 3px solid $hover-btn;
+    outline-offset: 3px;
+}
+
+.splide__pagination__page.is-active {
+    background: $hover-btn;
+    border: 2px solid $hover-btn;
+    outline-offset: 3px;
+    outline: 3px solid $hover-btn;
+}
+
+.splide__pagination__page {
+    background: #BB92C6;
+}
+
+.slide__card-lang-img {
+    margin-bottom: 20px;
+}
+
+.slide__lang-level {
+    color: $text-title-color;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 113%;
+    letter-spacing: .26px;
+    margin-bottom: 20px;
+    width: 100%;
+    transition: $transition;
+}
+
+.slide__card-info {
+    margin-bottom: 20px;
+
+    h4 {
+        color: #585858;
+        font-weight: 400;
+        line-height: 120%;
+        letter-spacing: .16px;
+    }
+
+    span {
+        color: $text-color;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: .16px;
+    }
+}
+
+.slide__details {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-self: stretch;
+
+    span {
+        color: $hover-btn;
+    }
+
+    svg {
+        transition: $transition;
+    }
+}
+
+.slide__price {
+    text-align: right;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 113%;
+    letter-spacing: .2px;
+}

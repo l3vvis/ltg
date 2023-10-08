@@ -1,0 +1,139 @@
+.header__hero {
+    width: 100%;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.hero__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__content {
+    margin-top: 59px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.hero__undertitle {
+    color: #2E90D1;
+    font-size: calc(.9rem + .5vw);
+    letter-spacing: 0.18px;
+    margin-bottom: 15px;
+    transition: $transition;
+    
+    &:hover {
+        color: #96C7E8;
+    }
+}
+
+.hero__title {
+    color: $text-title-color;
+    line-height: 70px;
+    margin-bottom: 20px;
+    
+    font: {
+        size: calc(2rem + 2vw);
+        weight: 900;
+    }
+}
+
+.hero__text {
+    width: 100%;
+    max-width: 500px;
+    color: $text-item-color;
+    line-height: 35px;
+    letter-spacing: 0.2px;
+    margin-bottom: 56px;
+    
+    font: {
+        size: calc(.9rem + .5vw);
+        weight: 500;
+    }
+}
+
+.hero__button-img-box {
+    display: flex;
+    align-items: center;
+
+    p {
+        margin-left: 12px;
+        color: $text-item-color;
+    }
+}
+
+.hero__button {
+    margin-right: 32px;
+    flex-shrink: 1;
+}
+
+.hero__img-button {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background-color: #FFEFEF;
+    border: 1px solid #FFEFEF;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    &:hover {
+        background-color: #ffd3d38d;
+        border: 1px solid #ffd3d38d;
+    }
+
+    path {
+        transition: $transition;
+    }
+
+    svg {
+        margin-left: 5px;
+    }
+
+    &:hover path {
+        fill: #E42125;
+    }
+}
+
+.hero__play-box {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.hero__img {
+    position: relative;
+    width: 100%;
+    align-items: center;
+}
+
+.hero__img>img {
+    width: 100%;
+}
+
+.hero__img-active-img {
+    flex-grow: 0;
+    position: absolute;
+    right: 410px;
+
+    animation: message-move 1.5s linear infinite alternate;
+}
+
+@keyframes message-move {
+
+    0% {
+        top: 100px;
+        right: 410px;
+    }
+
+    100% {
+        top: 180px;
+    }
+}

@@ -1,0 +1,214 @@
+.advantages__title-main {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: $text-title-color;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 35px;
+    letter-spacing: .46px;
+    margin-bottom: 60px;
+}
+
+.advantages__lessons {
+    display: flex;
+    margin-bottom: 60px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 162px;
+}
+
+.advantages__block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.advantages__number-first {
+    display: inline-flex;
+    padding: 4px 22px;
+    align-items: flex-start;
+    gap: 8px;
+    color: #fff;
+    border-radius: 100px;
+    background: #2E90D1;
+    margin-bottom: 22px;
+}
+
+.advantages__number-second {
+    display: inline-flex;
+    padding: 4px 22px;
+    align-items: flex-start;
+    gap: 8px;
+    color: #fff;
+    border-radius: 100px;
+    background: #78258D;
+    margin-bottom: 22px;
+}
+
+.advantages__number-third {
+    display: inline-flex;
+    padding: 4px 22px;
+    align-items: flex-start;
+    gap: 8px;
+    color: #fff;
+    border-radius: 100px;
+    background: #E42125;
+    margin-bottom: 22px;
+}
+
+.advantages__title {
+    color: $text-title-color;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.36px;
+    margin-bottom: 19px;
+    max-width: 578px;
+    width: 100%;
+}
+
+.advantages__subtitle {
+    max-width: 580px;
+    width: 100%;
+    color: #4F4F4F;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: .2px;
+}
+
+.advantages__background {
+    width: 700px;
+    height: 460px;
+}
+
+.advantages__communication {
+    display: flex;
+    margin-bottom: 106px;
+    align-items: center;
+    gap: 165px;
+    justify-content: space-between;
+}
+
+.advantages__cards {
+    display: flex;
+    border-radius: 20px;
+    background: #FFF;
+}
+
+.advantages__cards-list {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.advantages__cards-item {
+    width: 200px;
+    height: 228px;
+    transition: $transition;
+    border-radius: 10px;
+    background: #FFF;
+    transform: scale(1.1);
+    
+    &:hover {
+        box-shadow: 50px 40px 90px 60px rgba(46, 144, 209, 0.05);
+        transform: scale(1.3);
+    }
+}
+
+.advantages__card-name {
+    color: $text-title-color;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: .26px;
+}
+
+.advantages__description {
+    display: flex;
+    flex-direction: column;
+}
+
+.advantages__card-location {
+    display: flex;
+
+    h4 {
+        color: $text-title-color;
+        font-size: 8px;
+        font-weight: 600;
+        letter-spacing: .08px;
+    }
+
+    p {
+        color: $text-title-color;
+        font-size: 8px;
+        font-weight: 400;
+        letter-spacing: .08px;
+    }
+}
+
+.advantages__card-age {
+    display: flex;
+
+    h4 {
+        color: $text-title-color;
+        font-size: 8px;
+        font-weight: 600;
+        letter-spacing: .08px;
+    }
+
+    p {
+        color: $text-title-color;
+        font-size: 8px;
+        font-weight: 400;
+        letter-spacing: .08px;
+    }
+}
+
+.advantages__card-language {
+    display: flex;
+
+    h4 {
+        color: $text-title-color;
+        font-size: 8px;
+        font-weight: 600;
+        letter-spacing: .08px;
+    }
+
+    p {
+        color: $text-title-color;
+        font-size: 8px;
+        font-weight: 400;
+        letter-spacing: .08px;
+    }
+}
+
+.advantages__card-hobby {
+    display: flex;
+
+    h4 {
+        color: $text-title-color;
+        font-size: 8px;
+        font-weight: 600;
+        letter-spacing: .08px;
+    }
+
+    p {
+        color: $text-title-color;
+        font-size: 8px;
+        font-weight: 400;
+        letter-spacing: .08px;
+    }
+}
+
+.advantages__format {
+    display: flex;
+    align-items: center;
+    gap: 162px;
+    justify-content: space-between;
+}
+
+.advantages__button {
+    margin-top: 38px;
+}
+

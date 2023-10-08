@@ -1,0 +1,1419 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language to go</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/icons/header_logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="body" id="body">
+
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="header__top">
+                <div class="header__top-inner">
+                    <a class="header__logo" href="/">
+                        <img src="img/icons/header_logo.svg" alt="Логотип компании Language to go">
+                    </a>
+                    <nav class="nav" id="#nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a class="nav__title" href="#courses">
+                                    Курсы
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__title" href="#testimonials">
+                                    О нас
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__title" href="#news">
+                                    Блог
+                                </a>
+                            </li>
+                            <div class="dropdown">
+                                <button class="dropbtn">
+                                    Ещё
+                                    <svg width="14" height="8" viewBox="0 0 14 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L7 7L13 1" stroke="#333333" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                                <div class="dropdown-content">
+                                    <ul>
+                                        <a href="#FAQ">
+                                            FAQ
+                                        </a>
+                                        <a href="#footer">
+                                            Контакты
+                                        </a>
+                                        <a href="#">
+                                            Условия оплаты
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="header__top-button">
+                                <a class="header__button button" href="#modal">
+                                    Войти
+                                </a>
+                            </div>
+                        </ul>
+                    </nav>
+                    <a class="burger-icon" href="#">
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+            <section class="header__hero hero">
+                <div class="container">
+                    <div class="hero__inner">
+                        <div class="hero__content">
+                            <p class="hero__undertitle">
+                                Language to go
+                            </p>
+                            <h1 class="hero__title title">
+                                Онлайн-школа иностранных языков
+                            </h1>
+                            <p class="hero__text">
+                                Достигайте своих целей с помощью авторских игровых методик от носителей языка
+                            </p>
+                            <div class="hero__button-img-box">
+                                <a class="hero__button button" href="#reg">
+                                    Попробовать бесплатно
+                                </a>
+                                <div class="hero__play-box">
+                                    <a class="hero__img-button" data-fslightbox="video" href="media/rek.mp4">
+                                        <svg width="19" height="22" viewBox="0 0 19 22" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M17.2864 9.304C18.5397 10.0873 18.5397 11.9127 17.2864 12.696L3.06 21.5875C1.7279 22.4201 -1.00372e-06 21.4624 -9.35052e-07 19.8915L-1.57732e-07 2.10849C-8.90674e-08 0.537623 1.7279 -0.420062 3.06 0.412498L17.2864 9.304Z"
+                                                fill="#F6B5B6" />
+                                        </svg>
+                                    </a>
+                                    <p>Посмотреть промо-ролик</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero__img">
+                            <img src="img/content/bg/header_bg.jpg">
+                            <div class="hero__img-active-img">
+                                <img src="img/icons/active-mes.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+
+        <main class="main" id="main">
+
+            <section class="splide" aria-label="Splide Basic HTML Example" id="mySlider">
+                <div class="container">
+                    <div class="courses__inner" id="courses">
+                        <div class="courses__content">
+                            <div class="courses__head">
+                                <div class="courses__title title">
+                                    Курсы иностранных языков для любого уровня
+                                </div>
+                                <button class="courses__button">Все курсы</button>
+                            </div>
+                            <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <a class="slide__card" href="#">
+                                            <div class="slide__card-lang-img">
+                                                <img src="img/icons/german-icon.png" alt="">
+                                            </div>
+                                            <p class="slide__lang-level">
+                                                Немецкий для начального уровня
+                                            </p>
+                                            <div class="slide__card-info">
+                                                <h4>Длительность: <span>45 часов</span></h4>
+                                                <h4>Модулей: <span>3</span></h4>
+                                            </div>
+                                            <div class="slide__details">
+                                                <span>
+                                                    <div class="slide__details">Узнать подробнее
+                                                        <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M5.5 12H19.5" stroke="#8E49A0" stroke-width="2"
+                                                                stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M12.5 5L19.5 12L12.5 19" stroke="#8E49A0"
+                                                                stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round" />
+                                                        </svg>
+                                                    </div>
+                                                </span>
+                                                <h4 class="slide__price">
+                                                    От 6250 Р
+                                                </h4>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <a class="slide__card" href="#">
+                                            <div class="slide__card-lang-img">
+                                                <img src="img/icons/china-icon.png" alt="">
+                                            </div>
+                                            <p class="slide__lang-level">
+                                                Китайский для среднего уровня
+                                            </p>
+                                            <div class="slide__card-info">
+                                                <h4>Длительность: <span>45 часов</span></h4>
+                                                <h4>Модулей: <span>3</span></h4>
+                                            </div>
+                                            <div class="slide__details">
+                                                <span>
+                                                    <div class="slide__details">Узнать подробнее
+                                                        <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M5.5 12H19.5" stroke="#8E49A0" stroke-width="2"
+                                                                stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M12.5 5L19.5 12L12.5 19" stroke="#8E49A0"
+                                                                stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round" />
+                                                        </svg>
+                                                    </div>
+                                                </span>
+                                                <h4 class="slide__price">
+                                                    От 6250 Р
+                                                </h4>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <a class="slide__card" href="#">
+                                            <div class="slide__card-lang-img">
+                                                <img src="img/icons/spain-icon.png" alt="">
+                                            </div>
+                                            <p class="slide__lang-level">
+                                                Испанский для среднего уровня
+                                            </p>
+                                            <div class="slide__card-info">
+                                                <h4>Длительность: <span>45 часов</span></h4>
+                                                <h4>Модулей: <span>3</span></h4>
+                                            </div>
+                                            <div class="slide__details">
+                                                <span>
+                                                    <div class="slide__details">Узнать подробнее
+                                                        <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M5.5 12H19.5" stroke="#8E49A0" stroke-width="2"
+                                                                stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M12.5 5L19.5 12L12.5 19" stroke="#8E49A0"
+                                                                stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round" />
+                                                        </svg>
+                                                    </div>
+                                                </span>
+                                                <h4 class="slide__price">
+                                                    От 6250 Р
+                                                </h4>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <a class="slide__card" href="#">
+                                            <div class="slide__card-lang-img">
+                                                <img src="img/icons/china-icon.png" alt="">
+                                            </div>
+                                            <p class="slide__lang-level">
+                                                Китайский для среднего уровня
+                                            </p>
+                                            <div class="slide__card-info">
+                                                <h4>Длительность: <span>45 часов</span></h4>
+                                                <h4>Модулей: <span>3</span></h4>
+                                            </div>
+                                            <div class="slide__details">
+                                                <span>
+                                                    <div class="slide__details">Узнать подробнее
+                                                        <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M5.5 12H19.5" stroke="#8E49A0" stroke-width="2"
+                                                                stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M12.5 5L19.5 12L12.5 19" stroke="#8E49A0"
+                                                                stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round" />
+                                                        </svg>
+                                                    </div>
+                                                </span>
+                                                <h4 class="slide__price">
+                                                    От 6250 Р
+                                                </h4>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <a class="slide__card" href="#">
+                                            <div class="slide__card-lang-img">
+                                                <img src="img/icons/spain-icon.png" alt="">
+                                            </div>
+                                            <p class="slide__lang-level">
+                                                Испанский для среднего уровня
+                                            </p>
+                                            <div class="slide__card-info">
+                                                <h4>Длительность: <span>45 часов</span></h4>
+                                                <h4>Модулей: <span>3</span></h4>
+                                            </div>
+                                            <div class="slide__details">
+                                                <span>
+                                                    <div class="slide__details">Узнать подробнее
+                                                        <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M5.5 12H19.5" stroke="#8E49A0" stroke-width="2"
+                                                                stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M12.5 5L19.5 12L12.5 19" stroke="#8E49A0"
+                                                                stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round" />
+                                                        </svg>
+                                                    </div>
+                                                </span>
+                                                <h4 class="slide__price">
+                                                    От 6250 Р
+                                                </h4>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <a class="slide__card" href="#">
+                                            <div class="slide__card-lang-img">
+                                                <img src="img/icons/german-icon.png" alt="">
+                                            </div>
+                                            <p class="slide__lang-level">
+                                                Немецкий для начального уровня
+                                            </p>
+                                            <div class="slide__card-info">
+                                                <h4>Длительность: <span>45 часов</span></h4>
+                                                <h4>Модулей: <span>3</span></h4>
+                                            </div>
+                                            <div class="slide__details">
+                                                <span>
+                                                    <div class="slide__details">Узнать подробнее
+                                                        <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M5.5 12H19.5" stroke="#8E49A0" stroke-width="2"
+                                                                stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M12.5 5L19.5 12L12.5 19" stroke="#8E49A0"
+                                                                stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round" />
+                                                        </svg>
+                                                    </div>
+                                                </span>
+                                                <h4 class="slide__price">
+                                                    От 6250 Р
+                                                </h4>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+            <section class="change" id="change">
+                <div class="change__background">
+                    <img src="img/main-decor.png" alt="">
+                </div>
+                <div class="container">
+                    <div class="change__inner">
+                        <div class="description__col">
+                            <div class="change__title title">
+                                <h1>Кому подойдет <br>
+                                    <span>L2GO</span>
+                                </h1>
+                            </div>
+                            <div class="change__subtitle">
+                                <span>Language to go</span> подойдет всем, кто хочет за короткий срок качественно
+                                изменить свою
+                                жизнь,
+                                освоив
+                                иностранный язык.
+                            </div>
+                            <a class="change__button button" href="#reg">
+                                Попробовать бесплатно
+                            </a>
+                        </div>
+                        <div class="change__col">
+                            <ul class="change__list">
+                                <li class="change-item">
+                                    <div class="change-item-icon">
+                                        <img src="img/icons/presentation.png" alt="">
+                                    </div>
+                                    <div class="change-item-title">
+                                        Школьникам
+                                    </div>
+                                    <div class="change-item-subtitle">
+                                        Сдать выпускные экзамены или поступить в ВУЗ.
+                                    </div>
+                                </li>
+                                <li class="change-item">
+                                    <div class="change-item-icon">
+                                        <img src="img/icons/map-marker.png" alt="">
+                                    </div>
+                                    <div class="change-item-title">
+                                        Эмигрантам
+                                    </div>
+                                    <div class="change-item-subtitle">
+                                        Адаптироваться в новой стране, создать конкурентное преимущество
+                                        и трудоустроиться
+                                    </div>
+                                </li>
+                                <li class="change-item">
+                                    <div class="change-item-icon">
+                                        <img src="img/icons/briefcase 1.png" alt="">
+                                    </div>
+                                    <div class="change-item-title">
+                                        Бизнесменам
+                                    </div>
+                                    <div class="change-item-subtitle">
+                                        Завести полезные знакомства среди иностранцев и масштабировать бизнес
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="change__col">
+                            <ul class="change__list">
+                                <li class="change-item">
+                                    <div class="change-item-icon">
+                                        <img src="img/icons/graduation-cap.png" alt="">
+                                    </div>
+                                    <div class="change-item-title">
+                                        Студентам
+                                    </div>
+                                    <div class="change-item-subtitle">
+                                        Переехать на обучение в другую страну или найти высокооплачеваемую работу
+                                    </div>
+                                </li>
+                                <li class="change-item">
+                                    <div class="change-item-icon">
+                                        <img src="img/icons/comment-alt-message 1.png" alt="">
+                                    </div>
+                                    <div class="change-item-title">
+                                        Общительным
+                                    </div>
+                                    <div class="change-item-subtitle">
+                                        Создать счастливую семью с иностранцем и интегрироваться в новое общество
+                                    </div>
+                                </li>
+                                <li class="change-item">
+                                    <div class="change-item-icon">
+                                        <img src="img/icons/ship.png" alt="">
+                                    </div>
+                                    <div class="change-item-title">
+                                        Путешественникам
+                                    </div>
+                                    <div class="change-item-subtitle">
+                                        Свободно общаться и находить новых друзей, решать бытовые вопросы и спорные
+                                        ситуации
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="advantages" id="advantages">
+                <div class="container">
+                    <h1 class="advantages__title-main title">
+                        Почему вы быстро освоите язык
+                    </h1>
+                    <div class="advantages__inner">
+                        <div class="advantages__lessons">
+                            <div class="advantages__block">
+                                <span class="advantages__number-first">01</span>
+                                <h2 class="advantages__title">Интересные уроки</h2>
+                                <p class="advantages__subtitle">
+                                    Короткие, но насыщенные уроки до 45 минут.
+                                    Более глубокий объем знаний, чем в других школах и даже чем предусмотрено
+                                    международными стандартами.
+                                </p>
+                            </div>
+                            <div class="advantages__background">
+                                <img src="img/content/bg/main-content-bg.png" alt="">
+                            </div>
+                        </div>
+                        <div class="advantages__communication">
+                            <div class="advantages__cards">
+                                <ul class="advantages__cards-list">
+                                    <li class="advantages__cards-item">
+                                        <img class="advantages__card-icon" src="img/icons/female-icon.png" alt="">
+                                        <div class="advantages__card-name">
+                                            Ирина
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="88" height="17"
+                                                viewBox="0 0 88 17" fill="none">
+                                                <path
+                                                    d="M79.0603 3.13042C79.4028 2.31163 80.5629 2.31163 80.9054 3.13042L81.8516 5.39229C81.9961 5.73771 82.3214 5.97347 82.6947 6.00322L85.1403 6.19816C86.0285 6.26897 86.3876 7.37852 85.7092 7.9563L83.8544 9.53608C83.5678 9.78018 83.4425 10.1646 83.5304 10.5307L84.0985 12.8989C84.3059 13.7633 83.3668 14.4483 82.607 13.9869L80.5019 12.7085C80.183 12.5148 79.7827 12.5148 79.4638 12.7085L77.3587 13.9869C76.5989 14.4483 75.6598 13.7633 75.8672 12.8989L76.4354 10.5307C76.5232 10.1646 76.398 9.78018 76.1114 9.53608L74.2565 7.9563C73.5782 7.37852 73.9372 6.26897 74.8255 6.19816L77.2711 6.00322C77.6443 5.97347 77.9697 5.73771 78.1142 5.39229L79.0603 3.13042Z"
+                                                    fill="#FFB800" />
+                                                <path
+                                                    d="M61.1629 3.13042C61.5054 2.31163 62.6654 2.31163 63.0079 3.13042L63.9541 5.39229C64.0986 5.73771 64.424 5.97347 64.7972 6.00322L67.2428 6.19816C68.1311 6.26897 68.4901 7.37852 67.8117 7.9563L65.9569 9.53608C65.6703 9.78018 65.5451 10.1646 65.6329 10.5307L66.2011 12.8989C66.4084 13.7633 65.4693 14.4483 64.7096 13.9869L62.6045 12.7085C62.2855 12.5148 61.8853 12.5148 61.5663 12.7085L59.4612 13.9869C58.7015 14.4483 57.7624 13.7633 57.9697 12.8989L58.5379 10.5307C58.6257 10.1646 58.5005 9.78018 58.2139 9.53608L56.3591 7.9563C55.6807 7.37852 56.0398 6.26897 56.928 6.19816L59.3736 6.00322C59.7469 5.97347 60.0722 5.73771 60.2167 5.39229L61.1629 3.13042Z"
+                                                    fill="#FFB800" />
+                                                <path
+                                                    d="M43.2649 3.13042C43.6074 2.31163 44.7675 2.31163 45.11 3.13042L46.0562 5.39229C46.2007 5.73771 46.526 5.97347 46.8992 6.00322L49.3448 6.19816C50.2331 6.26897 50.5922 7.37852 49.9138 7.9563L48.059 9.53608C47.7724 9.78018 47.6471 10.1646 47.735 10.5307L48.3031 12.8989C48.5105 13.7633 47.5714 14.4483 46.8116 13.9869L44.7065 12.7085C44.3876 12.5148 43.9873 12.5148 43.6684 12.7085L41.5633 13.9869C40.8035 14.4483 39.8644 13.7633 40.0718 12.8989L40.64 10.5307C40.7278 10.1646 40.6026 9.78018 40.3159 9.53608L38.4611 7.9563C37.7827 7.37852 38.1418 6.26897 39.0301 6.19816L41.4757 6.00322C41.8489 5.97347 42.1743 5.73771 42.3187 5.39229L43.2649 3.13042Z"
+                                                    fill="#FFB800" />
+                                                <path
+                                                    d="M25.3675 3.13042C25.71 2.31163 26.87 2.31163 27.2125 3.13042L28.1587 5.39229C28.3032 5.73771 28.6285 5.97347 29.0018 6.00322L31.4474 6.19816C32.3356 6.26897 32.6947 7.37852 32.0163 7.9563L30.1615 9.53608C29.8749 9.78018 29.7497 10.1646 29.8375 10.5307L30.4057 12.8989C30.613 13.7633 29.6739 14.4483 28.9142 13.9869L26.8091 12.7085C26.4901 12.5148 26.0899 12.5148 25.7709 12.7085L23.6658 13.9869C22.9061 14.4483 21.967 13.7633 22.1743 12.8989L22.7425 10.5307C22.8303 10.1646 22.7051 9.78018 22.4185 9.53608L20.5637 7.9563C19.8853 7.37852 20.2443 6.26897 21.1326 6.19816L23.5782 6.00322C23.9514 5.97347 24.2768 5.73771 24.4213 5.39229L25.3675 3.13042Z"
+                                                    fill="#FFB800" />
+                                                <path
+                                                    d="M7.46951 3.13042C7.81202 2.31163 8.97207 2.31163 9.31458 3.13042L10.2608 5.39229C10.4052 5.73771 10.7306 5.97347 11.1038 6.00322L13.5494 6.19816C14.4377 6.26897 14.7968 7.37852 14.1184 7.9563L12.2636 9.53608C11.9769 9.78018 11.8517 10.1646 11.9395 10.5307L12.5077 12.8989C12.7151 13.7633 11.776 14.4483 11.0162 13.9869L8.91113 12.7085C8.59218 12.5148 8.19191 12.5148 7.87297 12.7085L5.76787 13.9869C5.00811 14.4483 4.06902 13.7633 4.27639 12.8989L4.84454 10.5307C4.93237 10.1646 4.80715 9.78018 4.52054 9.53608L2.66571 7.9563C1.98733 7.37852 2.34639 6.26897 3.23466 6.19816L5.68026 6.00322C6.0535 5.97347 6.37884 5.73771 6.52333 5.39229L7.46951 3.13042Z"
+                                                    fill="#FFB800" />
+                                            </svg>
+                                        </div>
+                                        <div class="advantages__description">
+                                            <div class="advantages__card-location">
+                                                <h4>Местонахождение:&nbsp;</h4>
+                                                <p>Санкт-Петербург</p>
+                                            </div>
+                                            <div class="advantages__card-age">
+                                                <h4>Возраст:&nbsp;</h4>
+                                                <p>18 лет</p>
+                                            </div>
+                                            <div class="advantages__card-language">
+                                                <h4>Языки, которые я изучаю:&nbsp;</h4>
+                                                <p>Немецкий</p>
+                                            </div>
+                                            <div class="advantages__card-hobby">
+                                                <h4>Хобби:&nbsp;</h4>
+                                                <p>Рисование, музыка, искусство</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="advantages__cards-item">
+                                        <img class="advantages__card-icon" src="img/icons/female-icon.png" alt="">
+                                        <div class="advantages__card-name">
+                                            Анна
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="88" height="17"
+                                                viewBox="0 0 88 17" fill="none">
+                                                <path
+                                                    d="M79.0603 3.13042C79.4028 2.31163 80.5629 2.31163 80.9054 3.13042L81.8516 5.39229C81.9961 5.73771 82.3214 5.97347 82.6947 6.00322L85.1403 6.19816C86.0285 6.26897 86.3876 7.37852 85.7092 7.9563L83.8544 9.53608C83.5678 9.78018 83.4425 10.1646 83.5304 10.5307L84.0985 12.8989C84.3059 13.7633 83.3668 14.4483 82.607 13.9869L80.5019 12.7085C80.183 12.5148 79.7827 12.5148 79.4638 12.7085L77.3587 13.9869C76.5989 14.4483 75.6598 13.7633 75.8672 12.8989L76.4354 10.5307C76.5232 10.1646 76.398 9.78018 76.1114 9.53608L74.2565 7.9563C73.5782 7.37852 73.9372 6.26897 74.8255 6.19816L77.2711 6.00322C77.6443 5.97347 77.9697 5.73771 78.1142 5.39229L79.0603 3.13042Z"
+                                                    fill="#FFB800" />
+                                                <path
+                                                    d="M61.1629 3.13042C61.5054 2.31163 62.6654 2.31163 63.0079 3.13042L63.9541 5.39229C64.0986 5.73771 64.424 5.97347 64.7972 6.00322L67.2428 6.19816C68.1311 6.26897 68.4901 7.37852 67.8117 7.9563L65.9569 9.53608C65.6703 9.78018 65.5451 10.1646 65.6329 10.5307L66.2011 12.8989C66.4084 13.7633 65.4693 14.4483 64.7096 13.9869L62.6045 12.7085C62.2855 12.5148 61.8853 12.5148 61.5663 12.7085L59.4612 13.9869C58.7015 14.4483 57.7624 13.7633 57.9697 12.8989L58.5379 10.5307C58.6257 10.1646 58.5005 9.78018 58.2139 9.53608L56.3591 7.9563C55.6807 7.37852 56.0398 6.26897 56.928 6.19816L59.3736 6.00322C59.7469 5.97347 60.0722 5.73771 60.2167 5.39229L61.1629 3.13042Z"
+                                                    fill="#FFB800" />
+                                                <path
+                                                    d="M43.2649 3.13042C43.6074 2.31163 44.7675 2.31163 45.11 3.13042L46.0562 5.39229C46.2007 5.73771 46.526 5.97347 46.8992 6.00322L49.3448 6.19816C50.2331 6.26897 50.5922 7.37852 49.9138 7.9563L48.059 9.53608C47.7724 9.78018 47.6471 10.1646 47.735 10.5307L48.3031 12.8989C48.5105 13.7633 47.5714 14.4483 46.8116 13.9869L44.7065 12.7085C44.3876 12.5148 43.9873 12.5148 43.6684 12.7085L41.5633 13.9869C40.8035 14.4483 39.8644 13.7633 40.0718 12.8989L40.64 10.5307C40.7278 10.1646 40.6026 9.78018 40.3159 9.53608L38.4611 7.9563C37.7827 7.37852 38.1418 6.26897 39.0301 6.19816L41.4757 6.00322C41.8489 5.97347 42.1743 5.73771 42.3187 5.39229L43.2649 3.13042Z"
+                                                    fill="#FFB800" />
+                                                <path
+                                                    d="M25.3675 3.13042C25.71 2.31163 26.87 2.31163 27.2125 3.13042L28.1587 5.39229C28.3032 5.73771 28.6285 5.97347 29.0018 6.00322L31.4474 6.19816C32.3356 6.26897 32.6947 7.37852 32.0163 7.9563L30.1615 9.53608C29.8749 9.78018 29.7497 10.1646 29.8375 10.5307L30.4057 12.8989C30.613 13.7633 29.6739 14.4483 28.9142 13.9869L26.8091 12.7085C26.4901 12.5148 26.0899 12.5148 25.7709 12.7085L23.6658 13.9869C22.9061 14.4483 21.967 13.7633 22.1743 12.8989L22.7425 10.5307C22.8303 10.1646 22.7051 9.78018 22.4185 9.53608L20.5637 7.9563C19.8853 7.37852 20.2443 6.26897 21.1326 6.19816L23.5782 6.00322C23.9514 5.97347 24.2768 5.73771 24.4213 5.39229L25.3675 3.13042Z"
+                                                    fill="#FFB800" />
+                                                <path
+                                                    d="M7.46951 3.13042C7.81202 2.31163 8.97207 2.31163 9.31458 3.13042L10.2608 5.39229C10.4052 5.73771 10.7306 5.97347 11.1038 6.00322L13.5494 6.19816C14.4377 6.26897 14.7968 7.37852 14.1184 7.9563L12.2636 9.53608C11.9769 9.78018 11.8517 10.1646 11.9395 10.5307L12.5077 12.8989C12.7151 13.7633 11.776 14.4483 11.0162 13.9869L8.91113 12.7085C8.59218 12.5148 8.19191 12.5148 7.87297 12.7085L5.76787 13.9869C5.00811 14.4483 4.06902 13.7633 4.27639 12.8989L4.84454 10.5307C4.93237 10.1646 4.80715 9.78018 4.52054 9.53608L2.66571 7.9563C1.98733 7.37852 2.34639 6.26897 3.23466 6.19816L5.68026 6.00322C6.0535 5.97347 6.37884 5.73771 6.52333 5.39229L7.46951 3.13042Z"
+                                                    fill="#FFB800" />
+                                            </svg>
+                                        </div>
+                                        <div class="advantages__description">
+                                            <div class="advantages__card-location">
+                                                <h4>Местонахождение:&nbsp;</h4>
+                                                <p>Москва</p>
+                                            </div>
+                                            <div class="advantages__card-age">
+                                                <h4>Возраст:&nbsp;</h4>
+                                                <p>28 лет</p>
+                                            </div>
+                                            <div class="advantages__card-language">
+                                                <h4>Языки, которые я изучаю:&nbsp;</h4>
+                                                <p>Немецкий</p>
+                                            </div>
+                                            <div class="advantages__card-hobby">
+                                                <h4>Хобби:&nbsp;</h4>
+                                                <p>Путешествия, вечеринки</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="advantages__cards-item">
+                                        <img class="advantages__card-icon" src="img/icons/male-icon.png" alt="">
+                                        <div class="advantages__card-name">
+                                            Сергей
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="88" height="17"
+                                                viewBox="0 0 88 17" fill="none">
+                                                <path
+                                                    d="M79.0603 3.13042C79.4028 2.31163 80.5629 2.31163 80.9054 3.13042L81.8516 5.39229C81.9961 5.73771 82.3214 5.97347 82.6947 6.00322L85.1403 6.19816C86.0285 6.26897 86.3876 7.37852 85.7092 7.9563L83.8544 9.53608C83.5678 9.78018 83.4425 10.1646 83.5304 10.5307L84.0985 12.8989C84.3059 13.7633 83.3668 14.4483 82.607 13.9869L80.5019 12.7085C80.183 12.5148 79.7827 12.5148 79.4638 12.7085L77.3587 13.9869C76.5989 14.4483 75.6598 13.7633 75.8672 12.8989L76.4354 10.5307C76.5232 10.1646 76.398 9.78018 76.1114 9.53608L74.2565 7.9563C73.5782 7.37852 73.9372 6.26897 74.8255 6.19816L77.2711 6.00322C77.6443 5.97347 77.9697 5.73771 78.1142 5.39229L79.0603 3.13042Z"
+                                                    fill="#FFB800" />
+                                                <path
+                                                    d="M61.1629 3.13042C61.5054 2.31163 62.6654 2.31163 63.0079 3.13042L63.9541 5.39229C64.0986 5.73771 64.424 5.97347 64.7972 6.00322L67.2428 6.19816C68.1311 6.26897 68.4901 7.37852 67.8117 7.9563L65.9569 9.53608C65.6703 9.78018 65.5451 10.1646 65.6329 10.5307L66.2011 12.8989C66.4084 13.7633 65.4693 14.4483 64.7096 13.9869L62.6045 12.7085C62.2855 12.5148 61.8853 12.5148 61.5663 12.7085L59.4612 13.9869C58.7015 14.4483 57.7624 13.7633 57.9697 12.8989L58.5379 10.5307C58.6257 10.1646 58.5005 9.78018 58.2139 9.53608L56.3591 7.9563C55.6807 7.37852 56.0398 6.26897 56.928 6.19816L59.3736 6.00322C59.7469 5.97347 60.0722 5.73771 60.2167 5.39229L61.1629 3.13042Z"
+                                                    fill="#FFB800" />
+                                                <path
+                                                    d="M43.2649 3.13042C43.6074 2.31163 44.7675 2.31163 45.11 3.13042L46.0562 5.39229C46.2007 5.73771 46.526 5.97347 46.8992 6.00322L49.3448 6.19816C50.2331 6.26897 50.5922 7.37852 49.9138 7.9563L48.059 9.53608C47.7724 9.78018 47.6471 10.1646 47.735 10.5307L48.3031 12.8989C48.5105 13.7633 47.5714 14.4483 46.8116 13.9869L44.7065 12.7085C44.3876 12.5148 43.9873 12.5148 43.6684 12.7085L41.5633 13.9869C40.8035 14.4483 39.8644 13.7633 40.0718 12.8989L40.64 10.5307C40.7278 10.1646 40.6026 9.78018 40.3159 9.53608L38.4611 7.9563C37.7827 7.37852 38.1418 6.26897 39.0301 6.19816L41.4757 6.00322C41.8489 5.97347 42.1743 5.73771 42.3187 5.39229L43.2649 3.13042Z"
+                                                    fill="#FFB800" />
+                                                <path
+                                                    d="M25.3675 3.13042C25.71 2.31163 26.87 2.31163 27.2125 3.13042L28.1587 5.39229C28.3032 5.73771 28.6285 5.97347 29.0018 6.00322L31.4474 6.19816C32.3356 6.26897 32.6947 7.37852 32.0163 7.9563L30.1615 9.53608C29.8749 9.78018 29.7497 10.1646 29.8375 10.5307L30.4057 12.8989C30.613 13.7633 29.6739 14.4483 28.9142 13.9869L26.8091 12.7085C26.4901 12.5148 26.0899 12.5148 25.7709 12.7085L23.6658 13.9869C22.9061 14.4483 21.967 13.7633 22.1743 12.8989L22.7425 10.5307C22.8303 10.1646 22.7051 9.78018 22.4185 9.53608L20.5637 7.9563C19.8853 7.37852 20.2443 6.26897 21.1326 6.19816L23.5782 6.00322C23.9514 5.97347 24.2768 5.73771 24.4213 5.39229L25.3675 3.13042Z"
+                                                    fill="#FFB800" />
+                                                <path
+                                                    d="M7.46951 3.13042C7.81202 2.31163 8.97207 2.31163 9.31458 3.13042L10.2608 5.39229C10.4052 5.73771 10.7306 5.97347 11.1038 6.00322L13.5494 6.19816C14.4377 6.26897 14.7968 7.37852 14.1184 7.9563L12.2636 9.53608C11.9769 9.78018 11.8517 10.1646 11.9395 10.5307L12.5077 12.8989C12.7151 13.7633 11.776 14.4483 11.0162 13.9869L8.91113 12.7085C8.59218 12.5148 8.19191 12.5148 7.87297 12.7085L5.76787 13.9869C5.00811 14.4483 4.06902 13.7633 4.27639 12.8989L4.84454 10.5307C4.93237 10.1646 4.80715 9.78018 4.52054 9.53608L2.66571 7.9563C1.98733 7.37852 2.34639 6.26897 3.23466 6.19816L5.68026 6.00322C6.0535 5.97347 6.37884 5.73771 6.52333 5.39229L7.46951 3.13042Z"
+                                                    fill="#FFB800" />
+                                            </svg>
+                                        </div>
+                                        <div class="advantages__description">
+                                            <div class="advantages__card-location">
+                                                <h4>Местонахождение:&nbsp;</h4>
+                                                <p>Новосибирск</p>
+                                            </div>
+                                            <div class="advantages__card-age">
+                                                <h4>Возраст:&nbsp;</h4>
+                                                <p>36 лет</p>
+                                            </div>
+                                            <div class="advantages__card-language">
+                                                <h4>Языки, которые я изучаю:&nbsp;</h4>
+                                                <p>Китайский</p>
+                                            </div>
+                                            <div class="advantages__card-hobby">
+                                                <h4>Хобби:&nbsp;</h4>
+                                                <p>Программирование, дизайн</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="advantages__block">
+                                <span class="advantages__number-second">02</span>
+                                <h2 class="advantages__title">Общение с другими учащимися</h2>
+                                <p class="advantages__subtitle">
+                                    Внутренний видеочат для общения с единомышленниками и отработки материала.
+                                    Завести новых друзей по интересам просто.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="advantages__format">
+                            <div class="advantages__block">
+                                <span class="advantages__number-third">03</span>
+                                <h2 class="advantages__title">Удобный формат обучения</h2>
+                                <p class="advantages__subtitle">
+                                    Полностью автоматический процесс обучения на одной платформе с доступом на любом
+                                    устройстве.
+                                </p>
+                                <a class="advantages__button button" href="#reg">
+                                    Начать обучение
+                                </a>
+                            </div>
+                            <div class="advantages__background">
+                                <img src="img/content/bg/content-img.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="promo" id="promo">
+                <div class="container">
+                    <div class="promo__inner">
+                        <div class="promo__background">
+                            <img src="img/content/bg/promo-girl.png" alt="">
+                        </div>
+                        <div class="promo__text">
+                            <p class="promo__title title">
+                                Эффективная методика изучения языка <span>L2GO</span>
+                            </p>
+                            <div class="promo__subtitle-points">
+                                <ul class="promo__subtitle-list">
+                                    <li class="promo__subtitle-item">
+                                        <svg width="20" height="24" viewBox="0 0 20 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="10" cy="14" r="8" fill="url(#paint0_linear_3708_1564)" />
+                                            <defs>
+                                                <linearGradient id="paint0_linear_3708_1564" x1="2" y1="6" x2="18"
+                                                    y2="22" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#2E90D1" />
+                                                    <stop offset="1" stop-color="#78258D" />
+                                                </linearGradient>
+                                            </defs>
+                                        </svg>
+                                        Самостоятельно выбираете удобный режим и время прохождения заданий
+                                    </li>
+                                    <li class="promo__subtitle-item">
+                                        <svg width="20" height="24" viewBox="0 0 20 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="10" cy="14" r="8" fill="url(#paint0_linear_3708_1564)" />
+                                            <defs>
+                                                <linearGradient id="paint0_linear_3708_1564" x1="2" y1="6" x2="18"
+                                                    y2="22" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#2E90D1" />
+                                                    <stop offset="1" stop-color="#78258D" />
+                                                </linearGradient>
+                                            </defs>
+                                        </svg>
+                                        Cовременная эффективная методика обучения гарантирует освоение языка на
+                                        максимально высоком уровне за короткий срок
+                                    </li>
+                                    <li class="promo__subtitle-item">
+                                        <svg width="20" height="24" viewBox="0 0 20 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="10" cy="14" r="8" fill="url(#paint0_linear_3708_1564)" />
+                                            <defs>
+                                                <linearGradient id="paint0_linear_3708_1564" x1="2" y1="6" x2="18"
+                                                    y2="22" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#2E90D1" />
+                                                    <stop offset="1" stop-color="#78258D" />
+                                                </linearGradient>
+                                            </defs>
+                                        </svg>
+                                        Полная автоматизация позволяет нам предоставлять самую низку цену - в 2, 3, а то
+                                        и в 5 раз дешевле других языковых школ.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="how__work">
+                <div class="container">
+                    <h1 class="title__how__work-main title">
+                        Как это работает?
+                    </h1>
+                    <div class="how__work-inner">
+                        <div class="how__work-cards">
+                            <ul class="how__work-list">
+                                <div class="how__work-it">
+                                    <li class="how__work-item">
+                                        <div class="how__work-class">
+                                            <div class="how__work-number-one">
+                                                01
+                                            </div>
+                                            <div class="how__work-title-card">
+                                                Регистрация
+                                            </div>
+                                            <div class="how__work-subtitle-card">
+                                                Выбирайте интересующий язык и регистрируйтесь.
+                                            </div>
+                                        </div>
+                                        <div class="how__work-picture-card">
+                                            <img src="img/card-picture.png" alt="">
+                                        </div>
+                                    </li>
+                                </div>
+                                <div class="how__work-it">
+                                    <li class="how__work-item">
+                                        <div class="how__work-class">
+                                            <div class="how__work-number-two">
+                                                02
+                                            </div>
+                                            <div class="how__work-title-card">
+                                                Регистрация
+                                            </div>
+                                            <div class="how__work-subtitle-card">
+                                                Выбирайте интересующий язык и регистрируйтесь.
+                                            </div>
+                                        </div>
+                                        <div class="how__work-picture-card">
+                                            <img src="img/card-picture.png" alt="">
+                                        </div>
+                                    </li>
+                                </div>
+                                <div class="how__work-it">
+                                    <li class="how__work-item">
+                                        <div class="how__work-class">
+                                            <div class="how__work-number-three">
+                                                03
+                                            </div>
+                                            <div class="how__work-title-card">
+                                                Обучение
+                                            </div>
+                                            <div class="how__work-subtitle-card">
+                                                Всё! Приступайте к первому бесплатному уроку.
+                                            </div>
+                                        </div>
+                                        <div class="how__work-picture-card">
+                                            <img src="img/card-picture.png" alt="">
+                                        </div>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="splide" aria-label="Splide Basic HTML Example" id="mySlider2">
+                <div class="container">
+                    <div class="testimonials__inner" id="testimonials">
+                        <div class="testimonials__header-block">
+                            <div class="testimonials__header-title title">
+                                <h1>Что говорят о нас ученики?</h1>
+                            </div>
+                            <button class="courses__button">Все отзывы</button>
+                        </div>
+                        <div class="testimonials__content">
+                            <div class="testimonials__bg">
+                                <img src="img/content/bg/main-bg.png" alt="">
+                                <div class="testimonials__img-active">
+                                    <img src="img/icons/hearts_movied.svg">
+                                </div>
+                            </div>
+                            <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <div class="slide__card-testimonials">
+                                            <div class="slide__testimonials-head-block">
+                                                <p class="slide__card-title">
+                                                    Артём М.
+                                                    <span>Студент</span>
+                                                </p>
+                                                <div class="slide__testimonials-rate">
+                                                    <svg width="30" height="28" viewBox="0 0 30 28" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M15 0L18.3677 10.3647H29.2658L20.4491 16.7705L23.8168 27.1353L15 20.7295L6.18322 27.1353L9.55093 16.7705L0.734152 10.3647H11.6323L15 0Z"
+                                                            fill="#8F49A0" />
+                                                    </svg>
+                                                    <svg width="30" height="28" viewBox="0 0 30 28" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M15 0L18.3677 10.3647H29.2658L20.4491 16.7705L23.8168 27.1353L15 20.7295L6.18322 27.1353L9.55093 16.7705L0.734152 10.3647H11.6323L15 0Z"
+                                                            fill="#8F49A0" />
+                                                    </svg>
+                                                    <svg width="30" height="28" viewBox="0 0 30 28" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M15 0L18.3677 10.3647H29.2658L20.4491 16.7705L23.8168 27.1353L15 20.7295L6.18322 27.1353L9.55093 16.7705L0.734152 10.3647H11.6323L15 0Z"
+                                                            fill="#8F49A0" />
+                                                    </svg>
+                                                    <svg width="30" height="28" viewBox="0 0 30 28" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M15 0L18.3677 10.3647H29.2658L20.4491 16.7705L23.8168 27.1353L15 20.7295L6.18322 27.1353L9.55093 16.7705L0.734152 10.3647H11.6323L15 0Z"
+                                                            fill="#8F49A0" />
+                                                    </svg>
+                                                    <svg width="30" height="28" viewBox="0 0 30 28" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M15 0L18.3677 10.3647H29.2658L20.4491 16.7705L23.8168 27.1353L15 20.7295L6.18322 27.1353L9.55093 16.7705L0.734152 10.3647H11.6323L15 0Z"
+                                                            fill="#8F49A0" />
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="slide__testimonials-text">
+                                                <p>Занятия курса очень понравились, в основном благодаря необычной
+                                                    системе — я человек настроения и не могу подстраиваться под график
+                                                    индивидуального репетитора или тем более целой группы. Иногда
+                                                    занимался несколько часов подряд — настолько легко и интересно
+                                                    организована подача материала, а один раз по болезни пропустил целую
+                                                    неделю.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <div class="slide__card-testimonials">
+                                            <div class="slide__testimonials-head-block">
+                                                <p class="slide__card-title">
+                                                    Артём М.
+                                                    <span>Студент</span>
+                                                </p>
+                                                <div class="slide__testimonials-rate">
+                                                    <svg width="30" height="28" viewBox="0 0 30 28" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M15 0L18.3677 10.3647H29.2658L20.4491 16.7705L23.8168 27.1353L15 20.7295L6.18322 27.1353L9.55093 16.7705L0.734152 10.3647H11.6323L15 0Z"
+                                                            fill="#8F49A0" />
+                                                    </svg>
+                                                    <svg width="30" height="28" viewBox="0 0 30 28" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M15 0L18.3677 10.3647H29.2658L20.4491 16.7705L23.8168 27.1353L15 20.7295L6.18322 27.1353L9.55093 16.7705L0.734152 10.3647H11.6323L15 0Z"
+                                                            fill="#8F49A0" />
+                                                    </svg>
+                                                    <svg width="30" height="28" viewBox="0 0 30 28" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M15 0L18.3677 10.3647H29.2658L20.4491 16.7705L23.8168 27.1353L15 20.7295L6.18322 27.1353L9.55093 16.7705L0.734152 10.3647H11.6323L15 0Z"
+                                                            fill="#8F49A0" />
+                                                    </svg>
+                                                    <svg width="30" height="28" viewBox="0 0 30 28" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M15 0L18.3677 10.3647H29.2658L20.4491 16.7705L23.8168 27.1353L15 20.7295L6.18322 27.1353L9.55093 16.7705L0.734152 10.3647H11.6323L15 0Z"
+                                                            fill="#8F49A0" />
+                                                    </svg>
+                                                    <svg width="30" height="28" viewBox="0 0 30 28" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M15 0L18.3677 10.3647H29.2658L20.4491 16.7705L23.8168 27.1353L15 20.7295L6.18322 27.1353L9.55093 16.7705L0.734152 10.3647H11.6323L15 0Z"
+                                                            fill="#8F49A0" />
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="slide__testimonials-text">
+                                                <p>Занятия курса очень понравились, в основном благодаря необычной
+                                                    системе — я человек настроения и не могу подстраиваться под график
+                                                    индивидуального репетитора или тем более целой группы. Иногда
+                                                    занимался несколько часов подряд — настолько легко и интересно
+                                                    организована подача материала, а один раз по болезни пропустил целую
+                                                    неделю.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="reg" id="reg">
+                <div class="container">
+                    <div class="reg__inner">
+                        <div class="reg__content">
+                            <div class="reg__title title">
+                                <h1>Регистрируйтесь и приступайте к первому бесплатному уроку</h1>
+                            </div>
+                            <p>Телефон *</p>
+                            <form class="reg__form">
+                                <label class="reg__form-label field">
+                                    <input class="field__input" type="tel" placeholder=" +7 (___) ___-__-__" required=""
+                                        inputmode="text">
+                                </label>
+                                <button class="reg__button" type="submit">
+                                    Начать обучение
+                                </button>
+                            </form>
+                            <div class="reg__check">
+                                <label class="reg__check-label">
+                                    <input class="reg__checkbox" type="checkbox">
+                                    <span>
+                                        Отправляя заявку, я соглашаюсь
+                                        <a href="#" target="_blank">с политикой
+                                            конфиденциальности и пользовательским соглашением</a>
+                                    </span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="reg__bg">
+                            <img src="img/content/bg/main-bg-2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="news" id="news">
+                <div class="container">
+                    <div class="news__inner">
+                        <div class="news__head-block">
+                            <div class="news__head-title title">
+                                <h1>Полезные новости и статьи</h1>
+                            </div>
+                            <button class="news__button">Все новости</button>
+                        </div>
+                        <div class="news__content">
+                            <div class="news__cards">
+                                <ul class="news__list">
+                                    <li class="news__item">
+                                        <div class="news__card-title">
+                                            Новая система скидок в Language2GO: успейте забрать максимум!
+                                        </div>
+                                        <div class="news__card-date">
+                                            <span>05-06-2022</span>
+                                        </div>
+                                        <div class="news__card-subtitle">
+                                            <p>Для многих стоимость изучения иностранного языка является важным
+                                                критерием при выборе системы обучения. </p>
+                                        </div>
+                                        <div class="news__card-moreblock">
+                                            <div class="news__card-moreblock-word">
+                                                <p>Новость</p>
+                                            </div>
+                                            <div class="news__card-moreblock-detailed">
+                                                <span>
+                                                    <div class="news__card-moreblock-detailed">Подробнее
+                                                        <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M5.5 12H19.5" stroke="#8E49A0" stroke-width="2"
+                                                                stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M12.5 5L19.5 12L12.5 19" stroke="#8E49A0"
+                                                                stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round" />
+                                                        </svg>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="news__item">
+                                        <div class="news__card-title">
+                                            “Интерактивная платформа: как это работает?” Отвечает основатель проекта...
+                                        </div>
+                                        <div class="news__card-date">
+                                            <span>05-06-2022</span>
+                                        </div>
+                                        <div class="news__card-subtitle">
+                                            <p>Моя команда — профессиональные филологи и педагоги-носители языка,
+                                                преподаватели зарубежных университетов, которые ... </p>
+                                        </div>
+                                        <div class="news__card-moreblock">
+                                            <div class="news__card-moreblock-word">
+                                                <p>Новость</p>
+                                            </div>
+                                            <div class="news__card-moreblock-detailed">
+                                                <span>
+                                                    <div class="news__card-moreblock-detailed">Подробнее
+                                                        <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M5.5 12H19.5" stroke="#8E49A0" stroke-width="2"
+                                                                stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M12.5 5L19.5 12L12.5 19" stroke="#8E49A0"
+                                                                stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round" />
+                                                        </svg>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="news__item">
+                                        <div class="news__card-title">
+                                            Новое слово в изучении иностранных языков: интерактивная платформа ...
+                                        </div>
+                                        <div class="news__card-date">
+                                            <span>05-06-2022</span>
+                                        </div>
+                                        <div class="news__card-subtitle">
+                                            <p>Для многих стоимость изучения иностранного языка является важным
+                                                критерием при выборе системы обучения. </p>
+                                        </div>
+                                        <div class="news__card-moreblock">
+                                            <div class="news__card-moreblock-word">
+                                                <p>Новость</p>
+                                            </div>
+                                            <div class="news__card-moreblock-detailed">
+                                                <span>
+                                                    <div class="news__card-moreblock-detailed">Подробнее
+                                                        <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M5.5 12H19.5" stroke="#8E49A0" stroke-width="2"
+                                                                stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M12.5 5L19.5 12L12.5 19" stroke="#8E49A0"
+                                                                stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round" />
+                                                        </svg>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="FAQ" id="FAQ">
+                <div class="container">
+                    <div class="FAQ__inner">
+                        <div class="FAQ__left-content">
+                            <div class="FAQ__title title">
+                                <p>Отвечаем на частые вопросы</p>
+                            </div>
+                            <button class="FAQ__button">Задать вопрос</button>
+                            <div class="FAQ__bg">
+                                <img src="img/content/bg/FAQ-bg.png" alt="">
+                            </div>
+                        </div>
+                        <div class="FAQ__accordion">
+                            <ul class="accordion__list">
+                                <li class="accordion__item-rules">
+                                    <div class="accordion__list-item">
+                                        <button class="accordion-list__control">
+                                            <h3>Как проходит обучение на онлайн-курсах?</h3>
+                                            <div class="plus-box">
+                                                <div class="plus">
+                                                    &#65794;
+                                                </div>
+                                            </div>
+                                        </button>
+                                    </div>
+                                    <div class="panel">
+                                        <p class="accordion-subtitle">Обучение проходит в формате видео-лекций на нашей
+                                            интерактивной платформе. После
+                                            приобретения курса, вы сразу же получаете письмо на почту с доступом в
+                                            личный
+                                            кабинет, в котором уже открыты все уроки приобретенного курса. Каждый урок
+                                            состоит из видео-лекции по теме и нескольких десятков интерактивных заданий
+                                            на
+                                            отработку материала.</p>
+                                    </div>
+                                </li>
+                                <li class="accordion__item-rules">
+                                    <div class="accordion__list-item">
+                                        <button class="accordion-list__control">
+                                            <h3>Я покупаю пакет уроков или онлайн-курс, сколько он действует?</h3>
+                                            <div class="plus-box">
+                                                <div class="plus">
+                                                    &#65794;
+                                                </div>
+                                            </div>
+                                        </button>
+                                    </div>
+                                    <div class="panel">
+                                        <p class="accordion-subtitle">Обучение проходит в формате видео-лекций на нашей
+                                            интерактивной платформе. После
+                                            приобретения курса, вы сразу же получаете письмо на почту с доступом в
+                                            личный
+                                            кабинет, в котором уже открыты все уроки приобретенного курса. Каждый урок
+                                            состоит из видео-лекции по теме и нескольких десятков интерактивных заданий
+                                            на
+                                            отработку материала.</p>
+                                    </div>
+                                </li>
+                                <li class="accordion__item-rules">
+                                    <div class="accordion__list-item">
+                                        <button class="accordion-list__control">
+                                            <h3>Как быстро я достигну результатов?</h3>
+                                            <div class="plus-box">
+                                                <div class="plus">
+                                                    &#65794;
+                                                </div>
+                                            </div>
+                                        </button>
+                                    </div>
+                                    <div class="panel">
+                                        <p class="accordion-subtitle">Обучение проходит в формате видео-лекций на нашей
+                                            интерактивной платформе. После
+                                            приобретения курса, вы сразу же получаете письмо на почту с доступом в
+                                            личный
+                                            кабинет, в котором уже открыты все уроки приобретенного курса. Каждый урок
+                                            состоит из видео-лекции по теме и нескольких десятков интерактивных заданий
+                                            на
+                                            отработку материала.</p>
+                                    </div>
+                                </li>
+                                <li class="accordion__item-rules">
+                                    <div class="accordion__list-item">
+                                        <button class="accordion-list__control">
+                                            <h3>Когда я могу начать обучение?</h3>
+                                            <div class="plus-box">
+                                                <div class="plus">
+                                                    &#65794;
+                                                </div>
+                                            </div>
+                                        </button>
+                                    </div>
+                                    <div class="panel">
+                                        <p class="accordion-subtitle">Обучение проходит в формате видео-лекций на нашей
+                                            интерактивной платформе. После
+                                            приобретения курса, вы сразу же получаете письмо на почту с доступом в
+                                            личный
+                                            кабинет, в котором уже открыты все уроки приобретенного курса. Каждый урок
+                                            состоит из видео-лекции по теме и нескольких десятков интерактивных заданий
+                                            на
+                                            отработку материала.</p>
+                                    </div>
+                                </li>
+                                <li class="accordion__item-rules">
+                                    <div class="accordion__list-item">
+                                        <button class="accordion-list__control">
+                                            <h3>Как проходит обучение на индивидуальных занятиях?</h3>
+                                            <div class="plus-box">
+                                                <div class="plus">
+                                                    &#65794;
+                                                </div>
+                                            </div>
+                                        </button>
+                                    </div>
+                                    <div class="panel">
+                                        <p class="accordion-subtitle">Обучение проходит в формате видео-лекций на нашей
+                                            интерактивной платформе. После
+                                            приобретения курса, вы сразу же получаете письмо на почту с доступом в
+                                            личный
+                                            кабинет, в котором уже открыты все уроки приобретенного курса. Каждый урок
+                                            состоит из видео-лекции по теме и нескольких десятков интерактивных заданий
+                                            на
+                                            отработку материала.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+    </div>
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__col">
+                    <a class="footer__logo" href="/">
+                        <img src="img/icons/footer-logo.svg" alt="Логотип компании Language To Go">
+                    </a>
+                    <p class="footer__logo-text">
+                        Language2Go - интерактивная платформа для легкого, удобного и быстрого изучения иностранных
+                        языков.
+                    </p>
+                    <div class="footer__payment">
+                        <ul class="footer__payment-list">
+                            <li class="footer__payment-item">
+                                <img src="img/icons/visa.png" alt="Visa">
+                            </li>
+                            <li class="footer__payment-item">
+                                <img src="img/icons/mastercard.png" alt="MasterCard">
+                            </li>
+                            <li class="footer__payment-item">
+                                <img src="img/icons/mir.png" alt="MirPay">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__col">
+                    <ul class="footer__learn-list">
+                        <h3 class="footer__column-title">Обучение</h3>
+                        <li class="footer__learn-item">
+                            <a class="footer__learn-link" href="#">Все языки</a>
+                        </li>
+                        <li class="footer__learn-item">
+                            <a class="footer__learn-link" href="#">Взрослым</a>
+                        </li>
+                        <li class="footer__learn-item">
+                            <a class="footer__learn-link" href="#">Детям и подросткам</a>
+                        </li>
+                        <li class="footer__learn-item">
+                            <a class="footer__learn-link" href="#">Мини-курсы</a>
+                        </li>
+                        <li class="footer__learn-item">
+                            <a class="footer__learn-link" href="#">Тренажеры</a>
+                        </li>
+                        <li class="footer__learn-item">
+                            <a class="footer__learn-link" href="#">Индивидуальные занятия</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <ul class="footer__info-list">
+                        <h3 class="footer__column-title">Информация</h3>
+                        <li class="footer__info-item">
+                            <a class="footer__info-link" href="#">О нас</a>
+                        </li>
+                        <li class="footer__info-item">
+                            <a class="footer__info-link" href="#">Отзывы</a>
+                        </li>
+                        <li class="footer__info-item">
+                            <a class="footer__info-link" href="#">Новости</a>
+                        </li>
+                        <li class="footer__info-item">
+                            <a class="footer__info-link" href="#">Частые вопросы</a>
+                        </li>
+                        <li class="footer__info-item">
+                            <a class="footer__info-link" href="#">Условия оплаты</a>
+                        </li>
+                        <li class="footer__info-item">
+                            <a class="footer__info-link" href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <ul class="footer__contact-list">
+                        <h3>Контакты</h3>
+                        <address class="footer__col-tel">
+                            <a class="footer__col-number" href="tel:+74951563550">
+                                +7 (495) 156-35-50
+                            </a>
+                        </address>
+                    </ul>
+                    <ul class="footer__mail-list">
+                        <li class="footer__mail-item">
+                            <address class="footer__col-mail">
+                                <a class="footer__col-email" href="mailto:info@language2go.ru">info@language2go.ru</a>
+                                <a class="footer__col-email"
+                                    href="mailto:support@language2go.ru">support@language2go.ru</a>
+                            </address>
+                        </li>
+                    </ul>
+                    <ul class="footer__address-list">
+                        <li class="footer__address-item">
+                            101000, Москва, Россия
+                        </li>
+                    </ul>
+                    <div class="footer__col">
+                        <ul class="footer__socials-list">
+                            <li class="footer__socials-item">
+                                <a class="footer__socials-link" href="/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <path
+                                            d="M15.12 5.32003H17V2.14003C16.0897 2.04538 15.1751 1.99865 14.26 2.00003C11.54 2.00003 9.67999 3.66003 9.67999 6.70003V9.32003H6.60999V12.88H9.67999V22H13.36V12.88H16.42L16.88 9.32003H13.36V7.05003C13.36 6.00003 13.64 5.32003 15.12 5.32003Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="footer__socials-item">
+                                <a class="footer__socials-link" href="/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <path
+                                            d="M23 9.71047C23.0495 8.27913 22.7365 6.85849 22.09 5.58047C21.6514 5.05607 21.0427 4.70218 20.37 4.58047C17.5875 4.328 14.7936 4.22452 12 4.27047C9.21667 4.22243 6.43274 4.32257 3.66003 4.57047C3.11185 4.67019 2.60454 4.92731 2.20003 5.31047C1.30003 6.14047 1.20003 7.56047 1.10003 8.76047C0.954939 10.918 0.954939 13.0829 1.10003 15.2405C1.12896 15.9159 1.22952 16.5863 1.40003 17.2405C1.5206 17.7455 1.76455 18.2128 2.11003 18.6005C2.51729 19.0039 3.03641 19.2757 3.60003 19.3805C5.75594 19.6466 7.92824 19.7569 10.1 19.7105C13.6 19.7605 16.67 19.7105 20.3 19.4305C20.8775 19.3321 21.4112 19.06 21.83 18.6505C22.11 18.3704 22.3191 18.0276 22.44 17.6505C22.7977 16.5531 22.9733 15.4046 22.96 14.2505C23 13.6905 23 10.3105 23 9.71047ZM9.74003 14.8505V8.66047L15.66 11.7705C14 12.6905 11.81 13.7305 9.74003 14.8505Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="footer__socials-item">
+                                <a class="footer__socials-link" href="/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                                        fill="none">
+                                        <g clip-path="url(#clip0_96_1171)">
+                                            <path
+                                                d="M17.802 12.2982C17.802 12.2982 19.419 13.8952 19.819 14.6342C19.8267 14.6449 19.8328 14.6567 19.837 14.6692C20 14.9422 20.04 15.1562 19.96 15.3142C19.825 15.5752 19.368 15.7062 19.213 15.7172H16.355C16.156 15.7172 15.742 15.6652 15.238 15.3172C14.853 15.0482 14.47 14.6052 14.099 14.1722C13.545 13.5292 13.066 12.9712 12.581 12.9712C12.5197 12.9711 12.4589 12.9812 12.401 13.0012C12.034 13.1172 11.568 13.6402 11.568 15.0332C11.568 15.4692 11.224 15.7172 10.983 15.7172H9.67397C9.22797 15.7172 6.90597 15.5612 4.84697 13.3902C2.32397 10.7322 0.057968 5.4002 0.035968 5.3532C-0.105032 5.0082 0.190968 4.8202 0.510968 4.8202H3.39697C3.78397 4.8202 3.90997 5.0542 3.99797 5.2642C4.09997 5.5052 4.47797 6.4692 5.09797 7.5522C6.10197 9.3142 6.71897 10.0312 7.21197 10.0312C7.30459 10.0315 7.39565 10.0073 7.47597 9.9612C8.11997 9.6072 7.99997 7.3072 7.96997 6.8332C7.96997 6.7412 7.96897 5.8062 7.63897 5.3542C7.40297 5.0302 7.00097 4.9042 6.75797 4.8582C6.82297 4.7642 6.96097 4.6202 7.13797 4.5352C7.57897 4.3152 8.37597 4.2832 9.16697 4.2832H9.60597C10.464 4.2952 10.686 4.3502 10.998 4.4292C11.626 4.5792 11.638 4.9862 11.583 6.3722C11.567 6.7682 11.55 7.2142 11.55 7.7392C11.55 7.8512 11.545 7.9762 11.545 8.1032C11.526 8.8142 11.501 9.6152 12.003 9.9442C12.0681 9.98476 12.1433 10.0062 12.22 10.0062C12.394 10.0062 12.915 10.0062 14.328 7.5812C14.948 6.5102 15.428 5.2472 15.461 5.1522C15.489 5.0992 15.573 4.9502 15.675 4.8902C15.7475 4.8516 15.8288 4.83231 15.911 4.8342H19.306C19.676 4.8342 19.927 4.8902 19.976 5.0302C20.058 5.2572 19.96 5.9502 18.41 8.0462C18.149 8.3952 17.92 8.6972 17.719 8.9612C16.314 10.8052 16.314 10.8982 17.802 12.2982Z"
+                                                fill="white" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_96_1171">
+                                                <rect width="20" height="20" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="footer__socials-item">
+                                <a class="footer__socials-link" href="/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <path
+                                            d="M22 5.80021C21.2483 6.1263 20.4534 6.34187 19.64 6.44021C20.4982 5.92753 21.1413 5.12099 21.45 4.17021C20.6436 4.65027 19.7608 4.98851 18.84 5.17021C18.2245 4.50278 17.405 4.05851 16.5098 3.90706C15.6147 3.75562 14.6945 3.90557 13.8938 4.3334C13.093 4.76123 12.4569 5.44274 12.0852 6.27105C11.7135 7.09935 11.6273 8.0276 11.84 8.91021C10.2094 8.82774 8.61444 8.40316 7.15865 7.66407C5.70287 6.92498 4.41885 5.8879 3.39 4.62021C3.02914 5.25038 2.83952 5.96403 2.84 6.69021C2.83872 7.36459 3.00422 8.02883 3.32176 8.62377C3.63929 9.21872 4.09902 9.72592 4.66 10.1002C4.00798 10.0825 3.36989 9.90751 2.8 9.59021V9.64021C2.80489 10.5851 3.13599 11.4993 3.73731 12.2282C4.33864 12.957 5.17326 13.4559 6.1 13.6402C5.74326 13.7488 5.37287 13.806 5 13.8102C4.74189 13.8072 4.48442 13.7838 4.23 13.7402C4.49391 14.553 5.00462 15.2634 5.69107 15.7724C6.37753 16.2814 7.20558 16.5638 8.06 16.5802C6.6172 17.7155 4.83588 18.3351 3 18.3402C2.66574 18.3413 2.33174 18.3213 2 18.2802C3.87443 19.4905 6.05881 20.1329 8.29 20.1302C9.82969 20.1462 11.3571 19.8552 12.7831 19.2743C14.2091 18.6934 15.505 17.8341 16.5952 16.7467C17.6854 15.6593 18.548 14.3656 19.1326 12.9411C19.7172 11.5166 20.012 9.98994 20 8.45021C20 8.28021 20 8.10021 20 7.92021C20.7847 7.33502 21.4615 6.61763 22 5.80021Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="footer__root">
+        <div class="container">
+            <div class="footer__root-inner">
+                <div class="footer__root-company">
+                    © 2022 Language to go
+                </div>
+                <div class="footer__root-rules">
+                    <a class="footer__root-link" href="#">
+                        Правовая оговорка
+                    </a>
+                    <a class="footer__root-link" href="#">
+                        Пользовательское соглашение
+                    </a>
+                    <a class="footer__root-link" href="#">
+                        Политика конфиденциальности
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="modal__window">
+            <a class="modal__cancel" href="#">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="26.6163" height="4.09481" rx="2"
+                        transform="matrix(0.710606 -0.70359 0.710606 0.70359 0 18.7271)" fill="#78258D" />
+                    <rect width="26.6163" height="4.09481" rx="2"
+                        transform="matrix(0.710606 0.70359 -0.710606 0.70359 3.0863 0.39209)" fill="#78258D" />
+                </svg>
+            </a>
+            <h3 class="modal__title title">
+                Вход в кабинет
+            </h3>
+            <p class="modal__text">
+                На указанный номер поступит звонок с номера +7 (999) 999-ХХ-ХХ
+            </p>
+            <form class="modal__form">
+                <label class="modal__form-label field">
+                    <input class="field__input" type="tel" placeholder=" +7 (___) ___-__-__" required=""
+                        inputmode="text">
+                </label>
+                <button class="modal-button" type="submit">
+                    Продолжить
+                </button>
+            </form>
+            <div class="modal__container-or">
+                <img src="img/icons/log-in-line.svg" alt="">
+                <span>или</span>
+                <img src="img/icons/log-in-line.svg" alt="">
+            </div>
+            <div class="modal__service-buttons">
+                <ul class="modal__service-list">
+                    <li class="modal__service-item">
+                        <a class="modal__service-link" href="#">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.5" y="0.5" width="47" height="47" rx="7.5" fill="white" stroke="#0D4CD3" />
+                                <path
+                                    d="M36.5989 19.288C36.4888 17.8451 35.3874 15.9951 34.286 15.1072C33.0474 14.1984 31.7606 13.3585 30.4311 12.5912C29.1117 11.8031 27.7514 11.0868 26.3559 10.4453C25.6105 10.1388 24.8112 9.98781 24.0063 10.0013C23.2011 9.98425 22.401 10.1354 21.6566 10.4453C20.2614 11.0872 18.9011 11.8035 17.5815 12.5912C15.4521 13.8862 13.7266 15.1072 13.7266 15.1072C12.8722 15.8277 12.2132 16.7434 11.7979 17.7683C11.6724 18.078 11.9123 18.3999 12.2464 18.3999H13.5435C13.9151 18.3999 14.2499 18.1896 14.457 17.8812C14.7495 17.4456 15.1038 17.0499 15.5122 16.7078C15.5122 16.7078 16.9369 15.7067 18.6951 14.6448C19.7847 13.9989 20.9079 13.4115 22.0599 12.8851C22.6745 12.631 23.3351 12.5071 23.9999 12.521C24.6645 12.51 25.3245 12.6338 25.94 12.8851C27.0922 13.4111 28.2154 13.9985 29.3048 14.6448C30.4025 15.274 31.465 15.9627 32.4877 16.7078C33.3971 17.436 34.3065 18.9529 34.3974 20.1362C34.3974 20.1362 34.6096 21.8958 34.6399 23.9801C34.638 25.2674 34.5672 26.5536 34.4277 27.8332C34.2162 29.1731 33.527 30.391 32.4877 31.2615C32.4877 31.2615 31.0629 32.2931 29.3048 33.3549C28.2152 34.0008 27.092 34.5882 25.94 35.1146C25.3253 35.3687 24.6648 35.4927 23.9999 35.4787C23.3359 35.4926 22.676 35.3719 22.0599 35.1237C20.9077 34.5977 19.7845 34.0103 18.6951 33.3641C16.9369 32.3325 15.5122 31.2706 15.5122 31.2706C15.1526 30.9828 14.7931 30.5716 14.4822 30.1064C14.2792 29.8026 13.9479 29.5998 13.5825 29.5998H12.2591C11.9207 29.5998 11.6818 29.9289 11.8176 30.2389C12.2699 31.2716 12.9982 32.2795 13.7266 32.8667C13.7266 32.8667 15.4521 34.1616 17.5815 35.4196C18.9009 36.2077 20.2612 36.9241 21.6566 37.5655C22.4028 37.8682 23.2021 38.0154 24.0063 37.9984C24.8115 38.0155 25.6115 37.8643 26.3559 37.5544C27.7511 36.9125 29.1115 36.1962 30.4311 35.4085C32.5605 34.1135 34.286 32.8556 34.286 32.8556C35.5448 31.7939 36.3795 30.3087 36.6356 28.6747C36.8046 27.1142 36.8904 25.5456 36.8926 23.9758C36.8559 21.434 36.5989 19.288 36.5989 19.288Z"
+                                    fill="url(#paint0_linear_1380_11128)" />
+                                <path
+                                    d="M11.1199 20.9218C11.1199 20.6125 11.3707 20.3618 11.6799 20.3618H20.3599C20.6692 20.3618 20.9199 20.6125 20.9199 20.9218V22.6018C20.9199 22.9111 20.6692 23.1618 20.3599 23.1618H11.1199V20.9218Z"
+                                    fill="#0066B3" />
+                                <path
+                                    d="M11.1198 24.8416H28.7597C29.069 24.8416 29.3197 25.0923 29.3197 25.4015V27.0815C29.3197 27.3908 29.069 27.6415 28.7597 27.6415H11.6797C11.3705 27.6415 11.1198 27.3908 11.1198 27.0815V24.8416Z"
+                                    fill="#EE2F53" />
+                                <defs>
+                                    <linearGradient id="paint0_linear_1380_11128" x1="24.2339" y1="10" x2="24.2339"
+                                        y2="37.9998" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#0066B3" />
+                                        <stop offset="0.354167" stop-color="#0066B3" />
+                                        <stop offset="0.6875" stop-color="#EE2F53" />
+                                        <stop offset="1" stop-color="#EE2F53" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            Войти через Госуслуги
+                        </a>
+                    </li>
+                    <li class="modal__service-item">
+                        <a class="modal__service-link" href="#">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10 23.44C10 17.1043 10 13.9365 11.9682 11.9682C13.9365 10 17.1043 10 23.44 10H24.56C30.8957 10 34.0635 10 36.0318 11.9682C38 13.9365 38 17.1043 38 23.44V24.56C38 30.8957 38 34.0635 36.0318 36.0318C34.0635 38 30.8957 38 24.56 38H23.44C17.1043 38 13.9365 38 11.9682 36.0318C10 34.0635 10 30.8957 10 24.56V23.44Z"
+                                    fill="#0077FF" />
+                                <path
+                                    d="M24.8984 30.1716C18.5167 30.1716 14.8768 25.7966 14.7251 18.5166H17.9218C18.0268 23.8599 20.3834 26.1233 22.25 26.5899V18.5166H25.2602V23.1249C27.1035 22.9266 29.0399 20.8266 29.6933 18.5166H32.7033C32.2016 21.3633 30.1016 23.4633 28.6083 24.3266C30.1016 25.0266 32.4934 26.8583 33.4034 30.1716H30.09C29.3783 27.9549 27.6052 26.2399 25.2602 26.0066V30.1716H24.8984Z"
+                                    fill="white" />
+                            </svg>
+                            Через ВКонтакте
+                        </a>
+                    </li>
+                    <li class="modal__service-item">
+                        <a class="modal__service-link" href="#">
+                            <svg width="28" height="29" viewBox="0 0 28 29" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M28 14.4285C28 6.69648 21.732 0.428467 14 0.428467C6.26801 0.428467 0 6.69648 0 14.4285C0 22.1605 6.26801 28.4285 14 28.4285C21.732 28.4285 28 22.1605 28 14.4285Z"
+                                    fill="#FC3F1D" />
+                                <path
+                                    d="M15.9729 22.8425H18.8977V6.04248H14.6433C10.3647 6.04248 8.11667 8.24223 8.11667 11.4814C8.11667 14.0679 9.34948 15.5907 11.5492 17.1619L7.72992 22.8425H10.8966L15.151 16.4851L13.6764 15.494C11.8877 14.2853 11.0175 13.3427 11.0175 11.3121C11.0175 9.52335 12.2744 8.31468 14.6675 8.31468H15.9729V22.8425Z"
+                                    fill="white" />
+                            </svg>
+                            Войти с Яндекс ID
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="js/fslightbox.js"></script>
+<script src="js/inputmask.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<script src="js/main.js"></script>
+
+</html>

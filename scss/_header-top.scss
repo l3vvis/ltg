@@ -1,0 +1,130 @@
+.header__top {
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #EFEFFF;
+    margin-bottom: 100px;
+}
+
+.header__top-inner {
+    padding: 28px 50px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.header__logo {
+    margin-right: 55px;
+}
+
+.nav {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.nav__title {
+    padding: 10px 15px;
+    transition: $transition;
+
+    &:hover {
+        color: $hover-btn;
+    }
+}
+
+.header__top-button {
+    margin: 0 0 0 auto;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+
+    &:hover button {
+        color: $hover-btn;
+        box-sizing: border-box;
+        border-bottom: 2px solid $hover-link;
+    }
+
+    &:hover .dropbtn svg {
+        transform: rotate(180deg);
+    }
+
+    &:hover .dropbtn path {
+        stroke: $hover-btn;
+    }
+
+    &:hover .dropdown-content {
+        display: block;
+    }
+}
+
+.dropdown .dropbtn {
+    position: relative;
+    color: $text-color;
+    padding: 14px 16px;
+    background-color: inherit;
+    transition: $transition;
+    border: 2px solid transparent;
+
+    font: {
+        size: 16px;
+        weight: 600;
+    }
+}
+
+.dropbtn {
+    svg {
+        transition: $transition;
+        margin-left: 5px;
+    }
+
+    &:hover {
+        color: $hover-btn;
+    }
+
+    &:hover::after {
+        color: $hover-btn;
+        display: block;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    &:hover .dropdown-content {
+        display: block;
+    }
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    gap: 5px;
+
+    a {
+        transition: $transition;
+        float: none;
+        color: $text-color;
+        padding: 5px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        border-bottom: 1px solid #EFEFFF;
+    }
+
+    a:hover {
+        color: $hover-link;
+    }
+}
